@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\Dialog">
+      <UniqueIdentifier>{9aacf9f8-b09f-4e1d-a011-c1c2f816a779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{950a3f3b-7ad7-4042-b798-5664220e3f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Message">
+      <UniqueIdentifier>{ee7b5714-ac95-4cb3-9864-32bac25c35a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core">
+      <UniqueIdentifier>{287a0dec-1d73-4e5a-b769-e6e364008b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Disassembly">
+      <UniqueIdentifier>{bacbf9b2-a1d4-485b-ba1a-c56027b1a4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Process&amp;Thread">
+      <UniqueIdentifier>{8f9f293b-1f97-41f6-a174-b88a07767969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\InlineAsm">
+      <UniqueIdentifier>{d3b473df-d8b2-4500-a668-3075988e45d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\Dialog">
+      <UniqueIdentifier>{7a77712b-9210-4f59-8fe6-dbb6ffd6d0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{68675e3d-73d2-4a33-ae8c-d134f5eebb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Message">
+      <UniqueIdentifier>{e378a48a-4d89-46a1-88e0-57a82fec2c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core">
+      <UniqueIdentifier>{09deca78-e1de-416f-a2f2-ff2f1b96e568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Disassembly">
+      <UniqueIdentifier>{52f052ac-1cf9-4302-8002-0e812be6f565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Process&amp;Thread">
+      <UniqueIdentifier>{02d6c0a5-164d-49c8-9483-9b4457ed340b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\InlineAsm">
+      <UniqueIdentifier>{562b35c8-8ddb-4e11-a085-734267ca19b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalApi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDDocTemplate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDebugger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDebuggerDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDebuggerView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessBarDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcWndDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CPropertyGridCtrl.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSTabCtrl.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecuteModuleWnd.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InvokeStackWnd.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleView.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterWnd.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>源文件\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCore.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PETools.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Disassembly.cpp">
+      <Filter>源文件\Disassembly</Filter>
+    </ClCompile>
+    <ClCompile Include="PT.cpp">
+      <Filter>源文件\Process&amp;Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InlineAsm32.asm">
+      <Filter>源文件\InlineAsm</Filter>
+    </None>
+    <None Include="InlineAsm64.asm">
+      <Filter>源文件\InlineAsm</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Debugger.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Debugger.bmp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SDebugger.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SDebugger.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SDebuggerDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDDocTemplate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDebugger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDebuggerDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDebuggerView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessBarDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcWndDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CPropertyGridCtrl.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSTabCtrl.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecuteModuleWnd.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="InvokeStackWnd.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleView.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterWnd.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>头文件\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCore.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PETools.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Disassembly.h">
+      <Filter>头文件\Disassembly</Filter>
+    </ClInclude>
+    <ClInclude Include="PT.h">
+      <Filter>头文件\Process&amp;Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineAsm32.h">
+      <Filter>头文件\InlineAsm</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineAsm64.h">
+      <Filter>头文件\InlineAsm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SDebugger.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
